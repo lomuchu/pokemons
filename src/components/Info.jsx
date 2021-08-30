@@ -24,7 +24,7 @@ const Info = props => {
     return(
        
         <div className="card" style={{width: "18rem;"}}>
-        { url ? <img className="card-img-top" src={url} alt="Card image cap"></img>  : <img className="card-img-top" src={who} alt="Card image cap"></img>      }     
+       <img className="card-img-top" src={url ? url : who} ></img>      
         <div className="card-body">
         <h5 class="card-title">{pokemon.name}</h5>
         </div>
