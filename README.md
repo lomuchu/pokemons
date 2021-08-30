@@ -10,7 +10,7 @@
 
 ```http://localhost:3000/```
 
-# SeVer un pokemon en especifico
+# Ver un pokemon en especifico
 
 ```http://localhost:3000/:number```
 
